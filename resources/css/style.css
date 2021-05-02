@@ -70,6 +70,19 @@ header span {
     padding: 8px;
 }
 
+#mobile-nav {
+    display: none;
+}
+
+#mobile-nav img{
+    padding: 0 4px;
+}
+
+@media screen and (max-width: 640px) {
+    #desktop-nav {display: none;}
+    #mobile-nav {display: block;}
+}
+
 /* Header Banner */
 
 #header-banner {
@@ -101,7 +114,7 @@ header span {
     padding: 48px;
 }
 
-@media only screen and (max-width: 960px) {
+@media screen and (max-width: 960px) {
     #header-banner {flex-wrap: wrap;}  
     .banner-img {width: 100%;}
     .banner-text {width: 100%;}
