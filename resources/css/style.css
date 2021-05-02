@@ -2,7 +2,7 @@
 
 html {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 h1 {
@@ -41,6 +41,11 @@ h6 {
     margin: 2.33rem 0;
 }
 
+p {
+    display: block;
+    margin: 0.67rem 0;
+}
+
 /* Header Menu */
 
 header {
@@ -63,4 +68,41 @@ nav {
 
 header span {
     padding: 8px;
+}
+
+/* Header Banner */
+
+#header-banner {
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#header-banner img {
+    width: 100%;
+}
+
+#header-banner button {
+    border: none;
+    width: 100%;
+    padding: 16px;
+}
+
+.banner-img {
+    width: 60%;
+}
+
+.banner-text {
+    width: 40%;
+}
+
+.text-child {
+    padding: 48px;
+}
+
+@media only screen and (max-width: 960px) {
+    #header-banner {flex-wrap: wrap;}  
+    .banner-img {width: 100%;}
+    .banner-text {width: 100%;}
 }
