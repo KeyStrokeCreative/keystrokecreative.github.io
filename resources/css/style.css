@@ -1,0 +1,40 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.67rem 0;
+}
+h2 {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.83rem 0;
+}
+h3 {
+    display: block;
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+h4 {
+    display: block;
+    font-weight: bold;
+    margin: 1.33rem 0;
+}
+h5 {
+    display: block;
+    font-size: 0.83rem;
+    font-weight: bold;
+    margin: 1.67rem 0;
+}
+h6 {
+    display: block;
+    font-size: 0.67rem;
+    font-weight: bold;
+    margin: 2.33rem 0;
+}
