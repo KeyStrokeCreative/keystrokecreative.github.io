@@ -231,7 +231,7 @@ header span {
 
 #learn .header {
     text-align: center;
-    padding-top: 32px;
+    padding: 32px;
 }
 
 #learn .container {
@@ -241,7 +241,7 @@ header span {
 }
 
 #learn .item {
-    margin: 16px 16px;
+    margin: 0 16px 32px 16px;
     width: 30%;
     background-color: white;
 }
