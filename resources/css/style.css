@@ -320,6 +320,19 @@ header span {
     width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+    #thesis .container {flex-wrap: wrap;}
+    #thesis .item-vid {width: 100%;
+                       padding: 0 0 32px 0;}
+    #thesis .item-vid-text {width: 100%;}
+    #thesis .item-vid-text * {padding: 0 48px;}
+    #thesis .item-text {width: 100%;
+                        padding: 0 48px;}
+    #thesis .child {flex-direction: column;}
+    #thesis .child * {width: 100%;}
+    #thesis .child-text {width: 80%;}
+}
+
 /* Footer */
 
 footer {
@@ -328,4 +341,16 @@ footer {
     height: 64px;
     padding: 16px 48px;
     border-top: 1px solid lightgray;
+}
+
+.rights {
+    padding-right: 32px;
+}
+
+.terms {
+    text-align: right;
+}
+
+.terms span {
+    padding: 8px 0;
 }
