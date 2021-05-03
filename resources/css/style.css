@@ -257,3 +257,53 @@ header span {
 #learn .item-text {
     padding: 16px;
 }
+
+/* Thesis Section */
+
+#thesis .header {
+    text-align: center;
+    padding: 32px;
+}
+
+#thesis .container {
+    display: flex;
+}
+
+#thesis .item-vid {
+    width: 60%;
+    padding-left: 48px;
+}
+
+#thesis .item-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 48px;
+}
+
+#thesis video {
+    width: 100%;
+}
+
+#thesis source {
+    width: 100%;
+}
+
+#thesis .child {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+#thesis .child-img {
+    width: 35%;
+}
+
+#thesis .child-text {
+    width: 65%;
+    padding: 0 32px;
+}
+
+#thesis img {
+    width: 100%;
+}
