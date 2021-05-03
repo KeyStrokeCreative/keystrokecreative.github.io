@@ -3,7 +3,6 @@
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
-    height: 100%;
 }
 
 h1 {
@@ -53,11 +52,11 @@ p {
 }
 
 body {
-    height: 100%;
+    width: 100%;
 }
 
 #main-content {
-    height: fit-content;
+    width: 100%;
 }
 
 /* Header Menu */
@@ -92,7 +91,7 @@ header span {
     padding: 0 4px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
     #desktop-nav {
         display: none;
     }
@@ -133,7 +132,7 @@ header span {
     padding: 48px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 480px) {
     #header-banner {
         flex-wrap: wrap;
     }
@@ -227,6 +226,7 @@ header span {
 
 #learn {
     background-color: lightgray;
+    width: 100%;
 }
 
 #learn .header {
@@ -236,6 +236,7 @@ header span {
 
 #learn .container {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 72px;
 }
@@ -258,6 +259,13 @@ header span {
     padding: 16px;
 }
 
+@media screen and (max-width: 480px) {
+    #learn .container {padding: 0 48px;}
+    #learn h2 {width: 100%;}
+    #learn .item {width: 100%;
+                  margin: 0 0 32px 0;}
+}
+
 /* Thesis Section */
 
 #thesis .header {
@@ -271,7 +279,7 @@ header span {
 
 #thesis .item-vid {
     width: 60%;
-    padding-left: 48px;
+    padding: 0 0 32px 48px;
 }
 
 #thesis .item-text {
@@ -295,6 +303,10 @@ header span {
     border: 1px solid gray;
 }
 
+#thesis .grey {
+    background-color: lightgray;
+}
+
 #thesis .child-img {
     width: 35%;
 }
@@ -306,4 +318,14 @@ header span {
 
 #thesis img {
     width: 100%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    padding: 16px 48px;
+    border-top: 1px solid lightgray;
 }
